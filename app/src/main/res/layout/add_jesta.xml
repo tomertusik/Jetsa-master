@@ -87,8 +87,7 @@
             android:layout_marginTop="20dp"
             android:background="@color/White"
             android:gravity="center"
-            android:hint="Enter Description
-   And Phone Number"
+            android:hint="@string/enter_description_and_phone_number"
             android:inputType="text"
             android:textColor="@color/DarkBlue"
             android:textSize="17dp"

@@ -7,5 +7,6 @@
     <string name="myJestas">My Jestas</string>
     <string name="addJesta">Add Jesta</string>
     <string name="title_activity_maps">Map</string>
+    <string name="enter_description_and_phone_number">Enter Description\n And Phone Number</string>
 
 </resources>
