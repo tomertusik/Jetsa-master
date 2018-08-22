@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Jetsa</string>
+    <string name="jesta">Jesta</string>
+    <string name="facebook_application_id" translatable="false">APP_ID</string>
+    <!-- Facebook Application ID, prefixed by 'fb'. Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fbAPP_ID</string>
+    <string name="myJestas">My Jestas</string>
+    <string name="addJesta">Add Jesta</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Aqua"
+        >
+
+        <android.support.constraint.ConstraintLayout
+            app:layout_constraintBottom_toTopOf="@id/reycler"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/addJesta"
+                android:text="Add Jesta"
+                >
+            </Button>
+        </android.support.constraint.ConstraintLayout>
+
+
+        <TextView
+            android:id="@+id/title"
+            android:text="@string/jesta"
+            android:textColor="@color/Black"
+            android:textSize="50dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:text="@string/myJestas"
+            android:textColor="@color/Black"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/reycler"
+            android:background="@color/B1"
+            app:layout_constraintTop_toBottomOf="@id/subtitle"
+            app:layout_constraintBottom_toTopOf="@id/backLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"></android.support.v7.widget.RecyclerView>
+
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/backLayout"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/back"
+                android:text="Back"
+                >
+            </Button>
+
+        </android.support.constraint.ConstraintLayout>
+
+
+        <FrameLayout
+            android:id="@+id/mainFrame"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

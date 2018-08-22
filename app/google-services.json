@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "271716765815",
+    "firebase_url": "https://jetsa-ff748.firebaseio.com",
+    "project_id": "jetsa-ff748",
+    "storage_bucket": "jetsa-ff748.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271716765815:android:1f0e0c426a0c9a45",
+        "android_client_info": {
+          "package_name": "com.example.tomer.jetsa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271716765815-nqo3nvt2aluns2n7n3edjsopn8f5lvck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tomer.jetsa",
+            "certificate_hash": "cb30bb18b49bd690d1ebbf827250ddb5b35515af"
+          }
+        },
+        {
+          "client_id": "271716765815-m7dj94oqrfgqpl4hqcaomi0j5grqn2ho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6dodQ9rNCHz69mhQI3-YHpiXK1s6rSDU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271716765815-m7dj94oqrfgqpl4hqcaomi0j5grqn2ho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
